@@ -2,10 +2,10 @@
 """
 Python method for UTF-8 validation
 """
-from typing import List
+from typing import List, Union
 
 
-def validUTF8(data -> List[int]) -> bool:
+def validUTF8(data -> List[int]) -> Union[True, False]:
     """
     Determines if a given data set represents a valid UTF-8 encoding.
 
